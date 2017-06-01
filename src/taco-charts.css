@@ -1,0 +1,53 @@
+#taco{
+  height: 450px;
+  width: 900px;
+  border-radius: 900px 900px 0 0;
+    -moz-border-radius: 900px 900px 0 0;
+    -webkit-border-radius: 900px 900px 0 0;
+  background: transparent;
+  position: absolute;
+  overflow: hidden;
+  
+}
+.ing {
+  top: 0;
+  margin-bottom: -4500px;
+  left: 0;
+  height:100%;
+  width:100%;
+  border-radius: 900px 900px 0 0;
+    -moz-border-radius: 900px 900px 0 0;
+    -webkit-border-radius: 900px 900px 0 0;
+  background:green;
+  transform-origin: 50% 100%;
+  overflow: hidden;
+  position: absolute;
+}
+#shell {
+  z-index: 1;
+  background: #f0cc7e;
+}
+#lettuce {
+  z-index: 1;
+  background:#2ecc71;
+  /*transform: rotate(15deg);*/
+
+}
+
+#meat{
+  z-index: 1;
+  background: #714b4d;
+  /*transform: rotate(30deg);*/
+}
+
+#hot-sauce{
+  z-index: 1;
+  background: #e74c3c;
+  /*transform: rotate(60deg);*/
+}
+
+#cheese{
+  z-index: 1;
+  background: #f1e231;
+  /*transform: rotate(95deg);*/
+}
