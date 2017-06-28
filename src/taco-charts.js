@@ -20,7 +20,12 @@ function Taco() {
 }
 
 function argumentsToRotations(arguments) {
-  var multiplier = 1.8;
+  var total = 0;
+  for(var i=1; i<arguments.length; i++) {
+    total += parseFloat(arguments[i]);
+  }
+  var multiplier = 180/total;
+  console.log(total);
   var rotations = [];
   var prev = 0;
   for (var i = 1; i< arguments.length && i < 6; i++) {
